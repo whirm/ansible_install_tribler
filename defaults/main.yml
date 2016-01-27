@@ -1,0 +1,5 @@
+---
+# defaults file for whirm.install_tribler
+
+tribler_repo_url: https://github.com/Tribler/tribler.git
+tribler_repo_version: next

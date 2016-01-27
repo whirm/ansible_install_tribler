@@ -1,0 +1,5 @@
+---
+# tasks file for whirm.install_tribler
+
+- name: make sure we have an up to date clone of the tribler repo
+  git: repo={{tribler_repo_url}} dest=/opt/tribler depth=1 force=yes recursive=yes update=yes version={{tribler_repo_version}}
